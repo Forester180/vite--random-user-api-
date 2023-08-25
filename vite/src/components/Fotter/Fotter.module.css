@@ -1,0 +1,20 @@
+.fotter {
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+}
+
+.fotter_img {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.fotter_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
